@@ -1,0 +1,20 @@
+# ============================================================
+# Project 5: Crop and Weed Detection
+# File: dataset.yaml
+# Description: YOLO dataset configuration file
+# Company: UCT — Machine Learning Internship
+# ============================================================
+
+# Dataset paths (relative to yolov5/ directory)
+path: ../data              # root directory of dataset
+train: images/train        # training images folder
+val: images/val            # validation images folder
+test: images/test          # test images folder
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: crop                  # Sesame crop
+  1: weed                  # Weed species
